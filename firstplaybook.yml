@@ -1,0 +1,9 @@
+---
+
+- hosts: all
+     tasks: 
+       - name: Hello Message
+          ansible.builin.debug:
+             msg: "Hello World"
+
+... 
